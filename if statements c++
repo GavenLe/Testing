@@ -1,16 +1,18 @@
 #include <iostream>
 
 int main() {
-
   int grade = 60;
   if (grade > 60) {
+  
     std::cout << "Pass\n";
   }
+  
   if (grade < 60) {
     std::cout << "Fail\n";
   }
+  
   if (grade == 60){
     std::cout << "Stay in place\n";
   }
-
+  
 }
